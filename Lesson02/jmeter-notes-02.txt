@@ -1,0 +1,17 @@
+lesson 2
+jmeter -n -t script.jmx
+-n => non-gui mode
+-t => file which contain test plan
+
+jmeter -n -t script.jmx -l results.jtl -j logfile.log
+-l => jtl to log sample results
+-j => log filename
+
+jmeter -g <jtl filename> (-e) -o <Path to output folder>
+-e => auto report
+
+-J == --jmeterproperty <prop>=<value>
+-D == --systemproperty <prop>=<value>
+-p == --propfile <filename>
+-q == --addprop <filename>
+-S == --systemPropertyFile <filename>
