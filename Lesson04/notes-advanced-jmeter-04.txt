@@ -1,0 +1,24 @@
+if controller
+
+while controller
+- empty -> loop until last sample fails
+- LAST
+- complex statement
+
+runtime controller
+- with fixed time
+
+interleace controller
+- one child one out of children 1-A 2-A 3-A
+
+random controller
+
+random order controller
+
+module controller
+reuse code in the same JMX file
+
+include controller
+read ready code, re-use code from other JMX file
+
+
